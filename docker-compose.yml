@@ -1,0 +1,23 @@
+version: "3.5"
+services:
+  app:
+    build: .
+    ports:
+    - "8080:8080"
+    depends_on:
+      - db
+    command: sh -c './wait-db.sh db 3306 sh ./run.sh'
+  db:
+    image: mysql:8.0
+    volumes:
+      - ./db-data:/var/lib/mysql
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_DATABASE: fms_branch_registry
+      MYSQL_USER: fms_branch_registry
+      MYSQL_PASSWORD: mt6LX4Y7F7a2CJwVqkAb
+      MYSQL_HOST: app
+      MYSQL_RANDOM_ROOT_PASSWORD: "yes"
+
+volumes:
+  db-data:

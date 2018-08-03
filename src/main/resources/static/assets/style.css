@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.db-update{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-bottom:1px solid #6a7a8a;
+}
+
+.db-update-button{
+    font-size:18px;
+    width:300px;
+    margin:10px;
+}
+
+.search{
+    margin-top:20px;
+}
+
+.search-code-field{
+    margin-left:10px;
+    width:300px;
+    font-size:12px;
+}
+
+.search-submit-button{
+    font-size:18px;
+}
+
+.branch-info{
+    display:none;
+    margin-top:20px;
+}
+
+.branch-info-code{
+    font-size:30px;
+}
+
+.branch-info-name{
+    color:#2c343d;
+}
