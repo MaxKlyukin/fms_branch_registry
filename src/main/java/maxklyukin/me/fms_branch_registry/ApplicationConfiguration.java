@@ -19,12 +19,12 @@ public class ApplicationConfiguration {
     private String charset;
 
     @Bean
-    public RegistryFetcherFactory fetcherFactory() {
+    public RemoteCSVRegistryFetcherFactory fetcherFactory() {
         return new RemoteCSVRegistryFetcherFactory();
     }
 
     @Bean
-    public RegistryFetcher fetcher(RegistryFetcherFactory factory) {
+    public RegistryFetcher fetcher(RemoteCSVRegistryFetcherFactory factory) {
         return factory.create(dbLink, filePath, charset);
     }
 

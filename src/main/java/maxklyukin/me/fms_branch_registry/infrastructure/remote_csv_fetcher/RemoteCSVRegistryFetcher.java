@@ -32,7 +32,7 @@ public class RemoteCSVRegistryFetcher {
             return reader.readEntries(file);
         } catch (IOException e) {
             logger.error(e.getMessage());
-            throw new RegistryFetchException("Registry can not fetched, it is unavailable or invalid", e);
+            throw new RegistryFetchException("Registry can not be fetched, it is unavailable or invalid", e);
         } finally {
             if (file != null) file.delete();
             if (archive != null) archive.delete();
