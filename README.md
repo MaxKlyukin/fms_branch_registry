@@ -43,6 +43,6 @@ You can find ui here: http://localhost:8080/.
 ---------------
 ```javascript
 {
-    error: "Registry can not fetched, it is unavailable or invalid"
+    error: "Registry can not be fetched, it is unavailable or invalid"
 }
 ```
