@@ -1,14 +1,17 @@
-package maxklyukin.me.fms_branch_registry;
+package me.maxklyukin.fms_branch_registry;
 
-import maxklyukin.me.fms_branch_registry.infrastructure.remote_csv_fetcher.RemoteCSVRegistryFetcherFactory;
-import maxklyukin.me.fms_branch_registry.registry.*;
+import me.maxklyukin.fms_branch_registry.infrastructure.remote_csv_fetcher.RemoteCSVRegistryFetcherFactory;
+import me.maxklyukin.fms_branch_registry.registry.*;
+import me.maxklyukin.fms_branch_registry.registry.RegistryFetcher;
+import me.maxklyukin.fms_branch_registry.registry.RegistryRepository;
+import me.maxklyukin.fms_branch_registry.registry.RegistryUpdater;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @Configuration
-@EnableJpaRepositories("maxklyukin.me.fms_branch_registry")
+@EnableJpaRepositories("me.maxklyukin.fms_branch_registry")
 public class ApplicationConfiguration {
 
     @Value("${app.db_link}")

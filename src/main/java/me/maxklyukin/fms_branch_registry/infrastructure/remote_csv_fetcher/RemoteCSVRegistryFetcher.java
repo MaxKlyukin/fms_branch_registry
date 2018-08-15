@@ -1,7 +1,7 @@
-package maxklyukin.me.fms_branch_registry.infrastructure.remote_csv_fetcher;
+package me.maxklyukin.fms_branch_registry.infrastructure.remote_csv_fetcher;
 
-import maxklyukin.me.fms_branch_registry.registry.Branch;
-import maxklyukin.me.fms_branch_registry.registry.RegistryFetchException;
+import me.maxklyukin.fms_branch_registry.registry.Branch;
+import me.maxklyukin.fms_branch_registry.registry.RegistryFetchException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

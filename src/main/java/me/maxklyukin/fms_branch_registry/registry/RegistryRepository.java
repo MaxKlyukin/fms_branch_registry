@@ -1,4 +1,4 @@
-package maxklyukin.me.fms_branch_registry.registry;
+package me.maxklyukin.fms_branch_registry.registry;
 
 import org.springframework.data.repository.Repository;
 import org.springframework.transaction.annotation.Transactional;

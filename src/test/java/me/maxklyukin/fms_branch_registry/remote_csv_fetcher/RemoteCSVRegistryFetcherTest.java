@@ -1,10 +1,10 @@
-package maxklyukin.me.fms_branch_registry.remote_csv_fetcher;
+package me.maxklyukin.fms_branch_registry.remote_csv_fetcher;
 
-import maxklyukin.me.fms_branch_registry.infrastructure.remote_csv_fetcher.ArchiveExtractor;
-import maxklyukin.me.fms_branch_registry.infrastructure.remote_csv_fetcher.FileDownloader;
-import maxklyukin.me.fms_branch_registry.infrastructure.remote_csv_fetcher.RegistryCSVReader;
-import maxklyukin.me.fms_branch_registry.infrastructure.remote_csv_fetcher.RemoteCSVRegistryFetcher;
-import maxklyukin.me.fms_branch_registry.registry.RegistryFetchException;
+import me.maxklyukin.fms_branch_registry.infrastructure.remote_csv_fetcher.ArchiveExtractor;
+import me.maxklyukin.fms_branch_registry.infrastructure.remote_csv_fetcher.FileDownloader;
+import me.maxklyukin.fms_branch_registry.infrastructure.remote_csv_fetcher.RegistryCSVReader;
+import me.maxklyukin.fms_branch_registry.infrastructure.remote_csv_fetcher.RemoteCSVRegistryFetcher;
+import me.maxklyukin.fms_branch_registry.registry.RegistryFetchException;
 import org.junit.Before;
 import org.junit.Test;
 

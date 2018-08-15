@@ -1,4 +1,4 @@
-package maxklyukin.me.fms_branch_registry.infrastructure.remote_csv_fetcher;
+package me.maxklyukin.fms_branch_registry.infrastructure.remote_csv_fetcher;
 
 import org.apache.commons.io.IOUtils;
 

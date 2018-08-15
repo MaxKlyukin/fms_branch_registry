@@ -1,4 +1,4 @@
-package maxklyukin.me.fms_branch_registry.registry;
+package me.maxklyukin.fms_branch_registry.registry;
 
 import lombok.AllArgsConstructor;
 import lombok.Value;

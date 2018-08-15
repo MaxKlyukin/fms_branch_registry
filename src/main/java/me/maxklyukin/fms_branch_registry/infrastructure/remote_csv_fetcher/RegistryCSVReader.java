@@ -1,6 +1,6 @@
-package maxklyukin.me.fms_branch_registry.infrastructure.remote_csv_fetcher;
+package me.maxklyukin.fms_branch_registry.infrastructure.remote_csv_fetcher;
 
-import maxklyukin.me.fms_branch_registry.registry.Branch;
+import me.maxklyukin.fms_branch_registry.registry.Branch;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
 

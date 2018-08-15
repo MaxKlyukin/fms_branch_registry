@@ -1,4 +1,4 @@
-package maxklyukin.me.fms_branch_registry.http;
+package me.maxklyukin.fms_branch_registry.http;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import lombok.Value;

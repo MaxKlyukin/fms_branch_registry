@@ -1,6 +1,6 @@
-package maxklyukin.me.fms_branch_registry.infrastructure.remote_csv_fetcher;
+package me.maxklyukin.fms_branch_registry.infrastructure.remote_csv_fetcher;
 
-import maxklyukin.me.fms_branch_registry.registry.RegistryFetcher;
+import me.maxklyukin.fms_branch_registry.registry.RegistryFetcher;
 
 public class RemoteCSVRegistryFetcherFactory {
 

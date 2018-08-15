@@ -1,8 +1,8 @@
-package maxklyukin.me.fms_branch_registry.http;
+package me.maxklyukin.fms_branch_registry.http;
 
-import maxklyukin.me.fms_branch_registry.registry.RegistryRepository;
-import maxklyukin.me.fms_branch_registry.registry.RegistryUpdateException;
-import maxklyukin.me.fms_branch_registry.registry.RegistryUpdater;
+import me.maxklyukin.fms_branch_registry.registry.RegistryRepository;
+import me.maxklyukin.fms_branch_registry.registry.RegistryUpdateException;
+import me.maxklyukin.fms_branch_registry.registry.RegistryUpdater;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
